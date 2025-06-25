@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing</title>
+</head>
+<body>
+    <header class="encabezado">
+        <i class="encabezado__icono"></i>
+        <h1 class="encabezado__titulo">Hilton</h1>
+        <nav class="navegacion">
+            <ul class="navegacion__lista">
+                <li class="navegacion__item"><a href="#" class="navegacion__enlace">Otros</a></li>
+                <li class="navegacion__item"><a href="#" class="navegacion__enlace">Servicios</a></li>
+                <li class="navegacion__item"><a href="#" class="navegacion__enlace">Informacion</a></li>
+                <li class="navegacion__item navegacion__item--ultimo"><a href="#" class="navegacion__enlace navegacion__enlace--borde">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="principal">
+        <div class="principal__contenido">
+            <img src="img/recibidor.jpg" alt="Recibidor de hotel" class="principal__imagen">
+            <p class="principal__texto">Escápate de la rutina y sumérgete en un oasis de tranquilidad. En nuestro hotel, cada detalle está pensado para tu confort: habitaciones acogedoras, gastronomía excepcional y un servicio que te hará sentir como en casa. Ya sea para una aventura inolvidable o un merecido descanso, tu experiencia perfecta te espera.</p>
+            <div class="reserva-form">
+                <form action="" class="reserva-form__formulario">
+                    <h1 class="reserva-form__titulo">¡Reserva una habitación!</h1>
+
+                    <input type="text" placeholder="Ingrese su nombre" class="reserva-form__input reserva-form__input--nombre">
+                    <input type="text" placeholder="Ingrese su apellido" class="reserva-form__input reserva-form__input--apellido">
+                    <input type="email" placeholder="Ingrese su correo" class="reserva-form__input">
+                    <input type="number" placeholder="Ingrese su numero de telefono" class="reserva-form__input">
+                    <input type="date" placeholder="Ingrese la fecha de estadia" class="reserva-form__input">
+
+                    <button type="submit" class="reserva-form__boton">Realizar Reserva</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
